@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".operator_location">
+
+
+    <Spinner
+        android:id="@+id/select_vehicle"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/Vehicle_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="120dp"
+
+        android:text="is assigned at"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="220dp"
+        android:drawableStart="@drawable/ic_place_black_24dp"
+        android:drawableLeft="@drawable/ic_place_black_24dp"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="location"
+        android:inputType="text" />
+
+
+    <TextView
+        android:id="@+id/Vehicle_display_nam2e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="170dp"
+
+        android:text="from"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="330dp"
+
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="250dp"
+
+        android:textSize="15dp"
+        android:inputType="text" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="190dp"
+
+        android:text="to"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="330dp"
+
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginRight="80dp"
+
+        android:textSize="15dp"
+        android:inputType="text" />
+
+</RelativeLayout>

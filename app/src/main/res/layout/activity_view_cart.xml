@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_cart">
+
+
+    <TextView
+        android:id="@+id/Vehicle_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"
+
+        android:text="Your Cart"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="310dp"
+
+        android:text="Price"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="210dp"
+
+        android:text="Quantity"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="250dp"
+
+        android:text="2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="250dp"
+
+        android:text="3"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="250dp"
+
+        android:text="1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/drinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+
+        android:text="Drinks"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/drinks_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="310dp"
+
+        android:text="$3.00"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/sandwiches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="50dp"
+
+        android:text="Sandwiches"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/sandwiches_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="310dp"
+
+        android:text="$17.25"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:id="@+id/snacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="50dp"
+
+        android:text="Snacks"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/snacks_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="310dp"
+
+        android:text="$1.75"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="190dp"
+
+        android:text="Sub-total:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="310dp"
+
+        android:text="$20.00"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="240dp"
+
+        android:text="Tax:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="310dp"
+
+        android:text="$1.185"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="230dp"
+
+        android:text="Total:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="310dp"
+
+        android:text="$23.185"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add more"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="50dp"
+        />
+
+
+    <Button
+        android:id="@+id/proceed_to_payment"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Proceed to Payment"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="210dp"
+        />
+
+
+
+
+</RelativeLayout>

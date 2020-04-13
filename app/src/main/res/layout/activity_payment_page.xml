@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".payment_page">
+
+    <TextView
+        android:id="@+id/Vehicle_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+
+        android:text="Card Details"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="80dp"
+        android:drawableStart="@drawable/ic_credit_card_icon"
+        android:drawableLeft="@drawable/ic_credit_card_icon"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Card Number"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="160dp"
+        android:drawableStart="@drawable/ic_calender"
+        android:drawableLeft="@drawable/ic_calender"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="190dp"
+        android:hint="Expiration Date"
+        android:textSize="15dp"
+        android:inputType="text" />
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="160dp"
+        android:drawableStart="@drawable/ic_calender"
+        android:drawableLeft="@drawable/ic_calender"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="60dp"
+        android:hint="CVV"
+        android:textSize="15dp"
+        android:inputType="text" />
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="220dp"
+        android:drawableStart="@drawable/ic_place_black_24dp"
+        android:drawableLeft="@drawable/ic_place_black_24dp"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Postal Code"
+        android:inputType="text" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="280dp"
+        android:drawableStart="@drawable/ic_person_outline_black_24dp"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Name on card"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/confirm_and_order_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Confirm and Order"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="220dp"
+        />
+
+
+
+
+</RelativeLayout>

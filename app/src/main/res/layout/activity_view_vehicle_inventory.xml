@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_vehicle_inventory">
+
+
+    <Spinner
+        android:id="@+id/select_vehicle"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/Vehicle_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="150dp"
+
+        android:text="Cart 3"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/drinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+
+        android:text="Drinks"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="270dp"
+
+        android:text="In Stock"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_for_drinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="310dp"
+
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="180dp"
+
+        android:text="Qnt Sold"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="210dp"
+
+        android:text="43"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/minus_for_drinks"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginRight="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/plus_for_drinks"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginRight="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/sandwiches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="50dp"
+
+        android:text="Sandwiches"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_for_sandwiches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="310dp"
+
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sandwiches_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="210dp"
+
+        android:text="2"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/minus_for_sandwiches"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginRight="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/plus_for_sandwiches"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginRight="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/snacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="50dp"
+
+        android:text="Snacks"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_for_snacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="310dp"
+
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/snacks_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="210dp"
+
+        android:text="32"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="40dp"
+
+        android:text="Total Revenue:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="210dp"
+
+        android:text="$240.75"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/minus_for_snacks"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginRight="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/plus_for_snacks"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginRight="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="+" />
+
+
+    <Button
+        android:id="@+id/restock_confirmation_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Confirm Restock"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="260dp"
+        />
+
+
+
+</RelativeLayout>

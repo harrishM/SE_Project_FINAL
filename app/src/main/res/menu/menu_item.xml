@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/view_profile"
+        android:title="Profile"
+        />
+
+    <item
+        android:id="@+id/view_cart"
+        android:title="View Cart"
+        />
+
+    <item
+        android:id="@+id/view_vehicle_inventory"
+        android:title="Vehicle Inventory"
+        />
+
+    <item
+        android:id="@+id/assign_operator"
+        android:title="Assign Operator"
+        />
+
+    <item
+        android:id="@+id/operator_location"
+        android:title="Operator Location"
+        />
+
+    <item
+        android:id="@+id/vehicle_location"
+        android:title="Vehicle Location"
+        />
+
+
+
+    <item
+        android:id="@+id/logout_button"
+        android:title="Logout"
+        />
+
+
+</group>
+
+</menu>

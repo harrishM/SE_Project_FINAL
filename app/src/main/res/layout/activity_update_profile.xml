@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".update_profile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+
+
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/update_profile"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/harrish_circle_with_tool_icon"
+
+            android:elevation="6dp"
+            app:civ_border_width="4dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harrish"
+            android:textSize="14dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tryout_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Update Profile"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/username_updateprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:drawableStart="@drawable/ic_person_outline_black_24dp"
+                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                android:drawablePadding="5dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:inputType="text" />
+
+
+
+            <EditText
+                android:id="@+id/lastname_updateprofilee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/firstname_updateprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/email_updateprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:drawableStart="@drawable/ic_email_black_24dp"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="5dp"
+
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/phone_updateprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:drawableStart="@drawable/ic_local_phone_black_24dp"
+                android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+                android:drawablePadding="5dp"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/streetaddress_updateprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:drawableStart="@drawable/ic_home_black_24dp"
+                android:drawableLeft="@drawable/ic_home_black_24dp"
+                android:drawablePadding="5dp"
+                android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/city_updateprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/state_updateprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/zipcode_updateprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:drawableStart="@drawable/ic_fiber_pin_black_24dp"
+                android:drawableLeft="@drawable/ic_fiber_pin_black_24dp"
+                android:drawablePadding="5dp"
+                android:inputType="number" />
+            <Button
+                android:id="@+id/reset_password_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Reset Password" />
+
+            <Button
+                android:id="@+id/Final_Update_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+
+
+        </LinearLayout>>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

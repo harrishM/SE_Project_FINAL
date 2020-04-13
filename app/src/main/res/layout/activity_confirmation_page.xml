@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".confirmation_page">
+
+    <TextView
+        android:id="@+id/Vehicle_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+
+        android:text="Order Confirmed"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="202dp"
+        android:layout_marginLeft="25dp"
+
+        android:text="Order ID:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="200dp"
+
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="30dp"
+        android:text="1198"
+        android:textSize="20dp"
+        android:inputType="text" />
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="282dp"
+        android:layout_marginLeft="25dp"
+
+        android:text="Location:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="280dp"
+
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="30dp"
+        android:text="S Center and W Mitchell"
+        android:textSize="15dp"
+        android:inputType="text" />
+
+
+
+
+
+
+
+
+</RelativeLayout>
